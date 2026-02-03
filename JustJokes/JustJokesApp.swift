@@ -10,6 +10,8 @@ import SwiftData
 
 @main
 struct JustJokesApp: App {
+    @State private var repository = JokeRepository()
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -26,6 +28,7 @@ struct JustJokesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(repository)
         }
         .modelContainer(sharedModelContainer)
     }

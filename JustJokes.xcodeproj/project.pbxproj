@@ -45,6 +45,36 @@
 			path = JustJokesUITests;
 			sourceTree = "<group>";
 		};
+		B3B4CCF02F2FAF26005A1A84 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3B4CCF12F2FAF31005A1A84 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B3B4CCF22F2FAF39005A1A84 /* Networking */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B3B4CCF32F2FAF49005A1A84 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B3B4CCF42F2FAF50005A1A84 /* Repositories */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		B3B4CCF52F2FAF5D005A1A84 /* Utilities */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +105,12 @@
 		B3B4CCBB2F2FAE01005A1A84 = {
 			isa = PBXGroup;
 			children = (
+				B3B4CCF52F2FAF5D005A1A84 /* Utilities */,
+				B3B4CCF42F2FAF50005A1A84 /* Repositories */,
+				B3B4CCF32F2FAF49005A1A84 /* Models */,
+				B3B4CCF22F2FAF39005A1A84 /* Networking */,
+				B3B4CCF12F2FAF31005A1A84 /* ViewModels */,
+				B3B4CCF02F2FAF26005A1A84 /* Views */,
 				B3B4CCC62F2FAE01005A1A84 /* JustJokes */,
 				B3B4CCD62F2FAE02005A1A84 /* JustJokesTests */,
 				B3B4CCE02F2FAE02005A1A84 /* JustJokesUITests */,
@@ -109,6 +145,12 @@
 			);
 			fileSystemSynchronizedGroups = (
 				B3B4CCC62F2FAE01005A1A84 /* JustJokes */,
+				B3B4CCF02F2FAF26005A1A84 /* Views */,
+				B3B4CCF12F2FAF31005A1A84 /* ViewModels */,
+				B3B4CCF22F2FAF39005A1A84 /* Networking */,
+				B3B4CCF32F2FAF49005A1A84 /* Models */,
+				B3B4CCF42F2FAF50005A1A84 /* Repositories */,
+				B3B4CCF52F2FAF5D005A1A84 /* Utilities */,
 			);
 			name = JustJokes;
 			packageProductDependencies = (
